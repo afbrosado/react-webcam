@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import Webcam from "react-webcam";
 
 const videoConstraints = {
@@ -11,6 +11,7 @@ const videoConstraints = {
 const WebcamCapture = () => {
 
   const webcamRef = useRef(null);
+  const [mode, setMode] = useState("environment");
 
   useEffect(() => {
     if (navigator.permissions && navigator.permissions.query) {
@@ -43,7 +44,16 @@ const WebcamCapture = () => {
         width="400px" // size of displaying screen
         // onUserMedia={(e) => console.log(e)} // show info of media stream
       />
-      <h1>1</h1>
+      <button onClick={e => {
+        e.preventDefault();
+        if(mode === "environment"){
+          setMode("user");
+        }
+        else {
+          setMode("environment");
+        }
+      }}>Change camera</button>
+      <h1>2</h1>
     </>
   );
 }
