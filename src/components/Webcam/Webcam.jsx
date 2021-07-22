@@ -53,6 +53,7 @@ class WebcamCapture extends React.Component {
           width="400px" // size of displaying screen
           // onUserMedia={(e) => console.log(e)} // show info of media stream
         />
+        <h1>sadfih</h1>
       </>
     );
   }
