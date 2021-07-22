@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/react-webcam/static/css/main.5ed66c52.chunk.css",
-    "main.js": "/react-webcam/static/js/main.7af2f5fe.chunk.js",
-    "main.js.map": "/react-webcam/static/js/main.7af2f5fe.chunk.js.map",
+    "main.js": "/react-webcam/static/js/main.df475345.chunk.js",
+    "main.js.map": "/react-webcam/static/js/main.df475345.chunk.js.map",
     "runtime-main.js": "/react-webcam/static/js/runtime-main.bbc22b6e.js",
     "runtime-main.js.map": "/react-webcam/static/js/runtime-main.bbc22b6e.js.map",
-    "static/js/2.a1feb995.chunk.js": "/react-webcam/static/js/2.a1feb995.chunk.js",
-    "static/js/2.a1feb995.chunk.js.map": "/react-webcam/static/js/2.a1feb995.chunk.js.map",
+    "static/js/2.29793ddf.chunk.js": "/react-webcam/static/js/2.29793ddf.chunk.js",
+    "static/js/2.29793ddf.chunk.js.map": "/react-webcam/static/js/2.29793ddf.chunk.js.map",
     "static/js/3.27eab385.chunk.js": "/react-webcam/static/js/3.27eab385.chunk.js",
     "static/js/3.27eab385.chunk.js.map": "/react-webcam/static/js/3.27eab385.chunk.js.map",
     "index.html": "/react-webcam/index.html",
     "static/css/main.5ed66c52.chunk.css.map": "/react-webcam/static/css/main.5ed66c52.chunk.css.map",
-    "static/js/2.a1feb995.chunk.js.LICENSE.txt": "/react-webcam/static/js/2.a1feb995.chunk.js.LICENSE.txt",
+    "static/js/2.29793ddf.chunk.js.LICENSE.txt": "/react-webcam/static/js/2.29793ddf.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/react-webcam/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.bbc22b6e.js",
-    "static/js/2.a1feb995.chunk.js",
+    "static/js/2.29793ddf.chunk.js",
     "static/css/main.5ed66c52.chunk.css",
-    "static/js/main.7af2f5fe.chunk.js"
+    "static/js/main.df475345.chunk.js"
   ]
 }
