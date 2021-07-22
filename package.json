@@ -1,5 +1,6 @@
 {
   "name": "webcam",
+  "homepage": "https://afbrosado.github.io/react-webcam/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
