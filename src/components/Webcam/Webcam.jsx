@@ -1,7 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react';
 import Webcam from "react-webcam";
 
-const videoConstraints = {
+const constraints = {
   height: 1080, //set pic resolution
   width: 1920, //set pic resolution
   facingMode: "environment" //use back camera
@@ -11,7 +11,7 @@ const videoConstraints = {
 const WebcamCapture = () => {
 
   const webcamRef = useRef(null);
-  const [mode, setMode] = useState("environment");
+  const [videoConstraints, setVideoConstraints] = useState(constraints);
 
   useEffect(() => {
     if (navigator.permissions && navigator.permissions.query) {
@@ -46,14 +46,14 @@ const WebcamCapture = () => {
       />
       <button onClick={e => {
         e.preventDefault();
-        if(mode === "environment"){
-          setMode("user");
+        if(setVideoConstraints.facingMode === "environment"){
+          setVideoConstraints({...videoConstraints, facingMode: "user"});
         }
         else {
-          setMode("environment");
+          setVideoConstraints({...videoConstraints, facingMode: "environment"});
         }
       }}>Change camera</button>
-      <h1>2</h1>
+      <h1>3</h1>
     </>
   );
 }
